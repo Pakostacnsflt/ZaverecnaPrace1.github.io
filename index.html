@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <title>Převodník měn</title>
+    <link rel="icon" type="image/png" href="favicon.ico">
+</head>
+<body>
+<link rel="stylesheet" href="Style.css">
+
+<nav>
+    <a href="index.html">Převodník</a>
+    <a href="Kurzy.html">Kurzy</a>
+    <a href="Napoveda.html">Nápověda</a>
+</nav>
+
+<h1>Převodník měn</h1>
+
+<form id="prevodnik">
+    <input type="number" id="castka" min="0" placeholder="Zadej částku">
+
+    <select id="from">
+        <option value="CZK">CZK</option>
+        <option value="EUR">EUR</option>
+        <option value="USD">USD</option>
+        <option value="PLN">PLN</option>
+    </select>
+
+    <select id="to">
+        <option value="EUR">EUR</option>
+        <option value="CZK">CZK</option>
+        <option value="USD">USD</option>
+        <option value="PLN">PLN</option>
+    </select>
+
+    <button type="submit">Převést</button>
+</form>
+
+<p id="result"></p>
+
+<script src="Funkcnost.js"></script>
+<footer>
+    Matěj Šimo – SPŠE Havířov
+</footer>
+</body>
+
+</html>

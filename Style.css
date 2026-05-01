@@ -1,0 +1,94 @@
+/*Celkova stranka*/
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #2b2b2b;
+    color: #e0e0e0;
+    text-align: center;
+}
+/*Horni menu*/
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: fit-content;
+    margin: 0 auto;
+    background-color: #3a3a3a;
+    padding: 10px 20px;
+    border-radius: 0 0 6px 6px;
+}
+
+nav a {
+    display: inline-block;
+    color: #e0e0e0;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+
+nav a:hover {
+    background-color: #5a5a5a;
+    color: #ffffff;
+}
+
+
+.container, form, h1, h2, p, table {
+    margin-top: 80px;
+}
+
+
+form {
+    margin-top: 100px;
+}
+/*Tlacitka*/
+input, select, button {
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+
+button {
+    background-color: #555;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #777;
+}
+
+/*Tabulka*/
+table {
+    margin: 100px auto;
+    border-collapse: collapse;
+    width: 60%;
+    background-color: #3a3a3a;
+}
+
+th, td {
+    border: 1px solid #555;
+    padding: 10px;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+th {
+    background-color: #444;
+}
+/*Zapati*/
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    color: #aaa;
+}
